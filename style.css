@@ -1,0 +1,54 @@
+* {
+    font-size: 16px;
+    /* text-align: center; */
+    font-family: "Noto Serif JP";
+}
+
+table {
+    border-collapse: collapse;
+}
+
+
+thead {
+    border-top: 4px solid;
+    border-bottom: 2px solid;
+}
+
+tbody {}
+
+tbody td {
+    border-top: 1px solid;
+    border-bottom: 1px solid;
+}
+
+tfoot {}
+
+tfoot td {
+    border-top: 2px solid;
+    border-bottom: 4px solid;
+}
+
+
+/* Font */
+caption {
+    font-family: "Noto Serif JP";
+    font-size: 3rem;
+    font-weight: 900;
+}
+
+thead th {
+    font-size: 1.5rem;
+    font-weight: 700;
+}
+
+
+tbody td,
+tbody ruby {
+    font-size: 1.2rem;
+    font-weight: 600;
+}
+
+tbody rt {
+    font-size: .8rem;
+    font-weight: 900;
+}
